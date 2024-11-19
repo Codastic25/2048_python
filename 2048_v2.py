@@ -7,7 +7,7 @@ screen.fill(color="white")
 pygame.display.set_caption("2048")
 
 pygame.mixer.init()
-pygame.mixer.music.load("/home/cytech/projets_aurian/python_projets/2048/prism.mp3")
+pygame.mixer.music.load("prism.mp3")
 pygame.mixer.music.play(-1) #pour jouer la musique en boucle
 
 
